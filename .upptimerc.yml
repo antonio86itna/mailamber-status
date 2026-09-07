@@ -1,31 +1,57 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: antonio86itna
+repo: mailamber-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Sito mailamber.app
+    url: https://mailamber.app
+  - name: API (account, licenze, pagamenti)
+    url: https://api.mailamber.app/healthz
+  - name: Download aggiornamenti
+    url: https://api.mailamber.app/v1/releases/latest
+  - name: Portale account
+    url: https://mailamber.app/account
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.mailamber.app
+  logoUrl: https://mailamber.app/favicon.svg
+  name: Stato Mailamber
+  introTitle: '**Stato dei servizi Mailamber** in tempo reale.'
+  introMessage: Qui trovi la disponibilità del sito, dell'API account/licenze e degli aggiornamenti. **Nota bene** — la tua posta non dipende da questi servizi; Mailamber parla direttamente coi server email dei tuoi provider, quindi anche durante un'interruzione l'app continua a ricevere e inviare normalmente.
   navbar:
-    - title: Status
+    - title: Stato
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Mailamber
+      href: https://mailamber.app
+    - title: Supporto
+      href: https://mailamber.app/contatti
+  theme: light
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Problemi in corso
+  allSystemsOperational: Tutti i sistemi sono operativi
+  incidentReport: 'Segnalazione #$ISSUE_NUMBER →'
+  incidentTitle: 'Dettagli su #$ISSUE_NUMBER'
+  incidentDetails: Dettagli del problema
+  incidentFixed: Risolto
+  incidentOngoing: In corso
+  liveStatus: Stato in tempo reale
+  overallUptime: 'Uptime complessivo: $UPTIME'
+  averageResponseTime: 'Tempo di risposta medio: $TIME ms'
+  sevenDays: 7 giorni
+  thirtyDays: 30 giorni
+  oneYear: 1 anno
+  up: Operativo
+  down: Non disponibile
+  degraded: Rallentato
+  ms: ms
+  loading: Caricamento
+  navGitHub: GitHub
+  footerStatusPage: Pagina di stato
+  footerPoweredBy: 'Realizzata con [Upptime](https://upptime.js.org)'
+  errorTitle: Errore
+  errorHomepage: Torna alla pagina di stato
+  pastIncidents: Problemi passati
+  pastIncidentsResolved: Risolto in $MINUTES minuti
+  scheduledMaintenance: Manutenzioni programmate
+  startedAt: Inizio
+  duration: 'Durata: $MINUTES minuti'
