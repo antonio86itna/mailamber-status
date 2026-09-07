@@ -2,56 +2,55 @@ owner: antonio86itna
 repo: mailamber-status
 
 sites:
-  - name: Sito mailamber.app
+  - name: Sito · Website (mailamber.app)
     url: https://mailamber.app
-  - name: API (account, licenze, pagamenti)
+  - name: API account, licenze e pagamenti · Accounts, licensing & billing API
     url: https://api.mailamber.app/healthz
-  - name: Download aggiornamenti
+  - name: Aggiornamenti app · App updates
     url: https://api.mailamber.app/v1/releases/latest
-  - name: Portale account
+  - name: Portale account · Account portal
     url: https://mailamber.app/account
 
 status-website:
   cname: status.mailamber.app
   logoUrl: https://mailamber.app/favicon.svg
-  name: Stato Mailamber
-  introTitle: '**Stato dei servizi Mailamber** in tempo reale.'
-  introMessage: Qui trovi la disponibilità del sito, dell'API account/licenze e degli aggiornamenti. **Nota bene** — la tua posta non dipende da questi servizi; Mailamber parla direttamente coi server email dei tuoi provider, quindi anche durante un'interruzione l'app continua a ricevere e inviare normalmente.
+  name: Mailamber Status
+  introTitle: '**Stato dei servizi Mailamber** · **Mailamber service status**'
+  introMessage: 'Disponibilità in tempo reale di sito, API account/licenze e aggiornamenti. **La tua posta non dipende da questi servizi**: Mailamber parla direttamente coi server email del tuo provider, quindi anche durante un''interruzione l''app continua a ricevere e inviare normalmente. · Real-time availability of the website, account/licensing API and updates. **Your mail does not depend on these services**: Mailamber talks directly to your provider''s email servers, so the app keeps receiving and sending normally even during an outage.'
   navbar:
-    - title: Stato
+    - title: Status
       href: /
     - title: Mailamber
       href: https://mailamber.app
-    - title: Supporto
+    - title: Supporto · Support
       href: https://mailamber.app/contatti
   theme: light
 
 i18n:
-  activeIncidents: Problemi in corso
-  allSystemsOperational: Tutti i sistemi sono operativi
-  incidentReport: 'Segnalazione #$ISSUE_NUMBER →'
-  incidentTitle: 'Dettagli su #$ISSUE_NUMBER'
-  incidentDetails: Dettagli del problema
-  incidentFixed: Risolto
-  incidentOngoing: In corso
-  liveStatus: Stato in tempo reale
-  overallUptime: 'Uptime complessivo: $UPTIME'
-  averageResponseTime: 'Tempo di risposta medio: $TIME ms'
-  sevenDays: 7 giorni
-  thirtyDays: 30 giorni
-  oneYear: 1 anno
-  up: Operativo
-  down: Non disponibile
-  degraded: Rallentato
+  activeIncidents: Problemi in corso · Active incidents
+  allSystemsOperational: Tutti i sistemi sono operativi · All systems operational
+  incidentReport: 'Segnalazione · Report #$ISSUE_NUMBER →'
+  incidentTitle: 'Dettagli · Details #$ISSUE_NUMBER'
+  incidentFixed: Risolto · Fixed
+  incidentOngoing: In corso · Ongoing
+  liveStatus: Stato in tempo reale · Live status
+  overallUptime: 'Uptime complessivo · Overall uptime: $UPTIME'
+  averageResponseTime: 'Risposta media · Average response: $TIME ms'
+  sevenDays: 7 giorni · days
+  thirtyDays: 30 giorni · days
+  oneYear: 1 anno · year
+  up: Operativo · Up
+  down: Non disponibile · Down
+  degraded: Rallentato · Degraded
   ms: ms
-  loading: Caricamento
+  loading: Caricamento · Loading
   navGitHub: GitHub
-  footerStatusPage: Pagina di stato
-  footerPoweredBy: 'Realizzata con [Upptime](https://upptime.js.org)'
-  errorTitle: Errore
-  errorHomepage: Torna alla pagina di stato
-  pastIncidents: Problemi passati
-  pastIncidentsResolved: Risolto in $MINUTES minuti
-  scheduledMaintenance: Manutenzioni programmate
-  startedAt: Inizio
-  duration: 'Durata: $MINUTES minuti'
+  footerStatusPage: Pagina di stato · Status page
+  footerPoweredBy: 'Realizzata con · Powered by [Upptime](https://upptime.js.org)'
+  errorTitle: Errore · Error
+  errorHomepage: Torna alla pagina di stato · Back to status page
+  pastIncidents: Problemi passati · Past incidents
+  pastIncidentsResolved: Risolto in $MINUTES minuti · Resolved in $MINUTES minutes
+  scheduledMaintenance: Manutenzioni programmate · Scheduled maintenance
+  startedAt: Inizio · Started at
+  duration: 'Durata · Duration: $MINUTES min'
