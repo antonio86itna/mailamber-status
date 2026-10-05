@@ -4,10 +4,10 @@
     "url": "https://mailamber.app",
     "icon": "https://icons.duckduckgo.com/ip3/mailamber.app.ico",
     "slug": "sito-website-mailamber-app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1093,
@@ -15,14 +15,16 @@
     "timeWeek": 1056,
     "timeMonth": 1093,
     "timeYear": 1093,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-05": 1
+    }
   },
   {
     "name": "API account, licenze e pagamenti · Accounts, licensing & billing API",
     "url": "https://api.mailamber.app/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.mailamber.app.ico",
     "slug": "api-account-licenze-e-pagamenti-accounts-licensing-and-billing-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -40,9 +42,9 @@
     "url": "https://api.mailamber.app/v1/releases/latest",
     "icon": "https://icons.duckduckgo.com/ip3/api.mailamber.app.ico",
     "slug": "aggiornamenti-app-app-updates",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,14 +53,16 @@
     "timeWeek": 805,
     "timeMonth": 866,
     "timeYear": 866,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-05": 0
+    }
   },
   {
     "name": "Portale account · Account portal",
     "url": "https://mailamber.app/account",
     "icon": "https://icons.duckduckgo.com/ip3/mailamber.app.ico",
     "slug": "portale-account-account-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
