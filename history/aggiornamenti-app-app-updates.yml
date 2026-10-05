@@ -1,7 +1,7 @@
 url: https://api.mailamber.app/v1/releases/latest
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-10-05T09:12:31.430Z
+status: up
+code: 200
+responseTime: 487
+lastUpdated: 2026-10-05T18:26:56.777Z
 startTime: 2026-09-07T19:16:48.803Z
 generator: Upptime <https://github.com/upptime/upptime>
